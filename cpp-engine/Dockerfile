@@ -1,6 +1,19 @@
-# VectorForge C++ Vector Engine
-# To be configured in later phases
-
 FROM ubuntu:22.04
+
 WORKDIR /app
-# TODO: Add build dependencies, compile steps, and entrypoint
+
+RUN apt-get update && apt-get install -y \
+    g++ \
+    cmake \
+    make \
+    wget \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY . .
+
+RUN g++ -std=c++17 -O2 -pthread main.cpp -o vector-engine
+
+EXPOSE 8080
+
+CMD ["./vector-engine"]
