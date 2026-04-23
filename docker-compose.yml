@@ -1,0 +1,7 @@
+# VectorForge Docker Compose
+# To be configured in later phases
+
+version: '3.8'
+services:
+  # Placeholder for future services
+  pass
