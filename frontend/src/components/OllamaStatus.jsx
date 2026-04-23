@@ -5,7 +5,7 @@ export default function OllamaStatus({ setOllamaReady }) {
   const [status, setStatus] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/system/status')
+    axios.get('https://vectorforge-backend.onrender.com/system/status')
       .then(res => {
         setStatus(res.data);
         if (setOllamaReady) setOllamaReady(res.data.ollamaAvailable);

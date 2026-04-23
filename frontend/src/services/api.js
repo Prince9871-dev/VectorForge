@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api/v1',
+  baseURL: 'https://vectorforge-backend.onrender.com/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -13,7 +13,7 @@ export const vectorSearch = async (vector, k, metric, algo) => {
 };
 
 export const getSystemStatus = async () => {
-  const { data } = await axios.get('http://localhost:8000/system/status');
+  const { data } = await axios.get('https://vectorforge-backend.onrender.com/system/status');
   return data;
 };
 

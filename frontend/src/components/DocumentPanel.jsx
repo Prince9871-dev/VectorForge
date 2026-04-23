@@ -61,7 +61,7 @@ export default function DocumentPanel() {
       // We will skip deleting docs from the vector DB for now if it's missing, but we'll try the backend route.
       // Wait, in Phase 2 I didn't make a DELETE /docs/delete/{id}. I only made GET /docs/list.
       // So we will just call the main C++ engine directly for delete.
-      await axios.delete(`http://localhost:8080/doc/delete/${id}`);
+      await axios.delete(`https://vectorforge-backend.onrender.com/doc/delete/${id}`);
       fetchDocs();
     } catch (e) { console.error(e); }
   };

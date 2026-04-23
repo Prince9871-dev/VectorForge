@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 import { pca2D } from '../utils/pca';
 
-const API = 'http://localhost:8000';
+const API = 'https://vectorforge-backend.onrender.com';
 const api = axios.create({ baseURL: API });
 
 const VectorDBContext = createContext();
@@ -53,7 +53,7 @@ export function VectorDBProvider({ children }) {
       // Actually we don't have an endpoint for hnsw-info in the FastAPI backend!
       // But we proxy to it in cpp_client if we added it, but I didn't add it in Phase 2.
       // For now, we will fetch directly from port 8080 or ignore if not proxied.
-      const { data } = await axios.get('http://localhost:8080/hnsw-info');
+      const { data } = await axios.get('https://vectorforge-backend.onrender.com/hnsw-info');
       setHnswInfo(data);
     } catch (err) {
       console.error(err);
