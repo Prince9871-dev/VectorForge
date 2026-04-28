@@ -1,3 +1,7 @@
+# VectorForge
+
+![Dashboard](./dashboard.jpeg)
+
 VectorForge
 Production-grade semantic vector search infrastructure built with C++, FastAPI, React, and local LLM inference via Ollama.
 VectorForge is a high-performance AI systems project that demonstrates how modern vector databases like Pinecone, Weaviate, Chroma, and Milvus work internally — built from scratch using a custom C++ vector engine and a scalable full-stack architecture.
