@@ -1,8 +1,25 @@
+# VectorForge
+
+![Preview](https://github.com/Prince9871-dev/VectorForge/blob/main/dashboard.jpeg?raw=true)
+
+---
+
 ## 📸 Screenshots
 
+### 🖥️ Dashboard
 ![Dashboard](https://github.com/Prince9871-dev/VectorForge/blob/main/dashboard.jpeg?raw=true)
 
-![RAG Interface](https://github.com/Prince9871-dev/VectorForge/blob/main/rag.jpeg?raw=true)
+### 🤖 RAG Interface
+![RAG](https://github.com/Prince9871-dev/VectorForge/blob/main/rag.jpeg?raw=true)
+
+### 🔍 Search & Results
+![Search](https://github.com/Prince9871-dev/VectorForge/blob/main/search.jpeg?raw=true)
+
+### 🏗️ Architecture Flow
+![Architecture](https://github.com/Prince9871-dev/VectorForge/blob/main/architecture.jpeg?raw=true)
+
+### ⚙️ Additional View
+![Extra](https://github.com/Prince9871-dev/VectorForge/blob/main/extra.jpeg?raw=true)
 
 VectorForge
 Production-grade semantic vector search infrastructure built with C++, FastAPI, React, and local LLM inference via Ollama.
