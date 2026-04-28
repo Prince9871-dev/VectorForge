@@ -1,6 +1,5 @@
 # VectorForge
 
-![Preview](https://github.com/Prince9871-dev/VectorForge/blob/main/dashboard.jpeg?raw=true)
 
 ---
 
