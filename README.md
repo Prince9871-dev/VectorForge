@@ -1,6 +1,8 @@
-# VectorForge
+## 📸 Screenshots
 
-![Dashboard](./dashboard.jpeg)
+![Dashboard](https://github.com/Prince9871-dev/VectorForge/blob/main/dashboard.jpeg?raw=true)
+
+![RAG Interface](https://github.com/Prince9871-dev/VectorForge/blob/main/rag.jpeg?raw=true)
 
 VectorForge
 Production-grade semantic vector search infrastructure built with C++, FastAPI, React, and local LLM inference via Ollama.
